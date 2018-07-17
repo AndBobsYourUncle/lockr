@@ -52,7 +52,7 @@ SimpleTokenAuthentication.configure do |config|
   #
   #   `config.identifiers = { super_admin: 'phone_number', user: 'uuid' }`
   #
-  # config.identifiers = { user: 'email' }
+  config.identifiers = { user: 'username' }
 
   # Configure the Devise trackable strategy integration.
   #
