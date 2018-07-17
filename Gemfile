@@ -19,6 +19,7 @@ gem 'jbuilder'
 gem 'turbolinks'
 
 gem 'devise'
+gem 'simple_token_authentication'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
